@@ -1,0 +1,128 @@
+.main__box {
+   display: grid;
+   place-items: center;
+   /* height: 120vh; */
+   height: calc(100vh - 4.5rem);
+}
+
+.main{
+    display: grid;
+    place-items: center;
+    gap: var(--size-sm);
+
+    padding-top: var(--size-sm);
+    padding-bottom: var(--size-sm);
+}
+
+.main__title{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-light);
+    text-transform: capitalize;
+    text-align: center;
+
+    font-weight: 700;
+    font-size: var(--size-2xl);
+
+    background-color: rgba(54, 54, 54, 0.875);
+    padding: var(--size-2xl) var(--size-5xl);
+    border-radius: var(--border-lg);
+}
+
+.color{
+    display: block;
+    margin-left: var(--size-xxs);
+    color: #7592f0;
+
+    font-weight: 400;
+    font-size: var(--size-3xl);
+}
+
+.main__button{
+    display: grid;
+    place-items: center;
+    user-select: none;
+}
+
+
+
+/* xs */
+@media (min-width: 475px) {
+    .main {
+        gap: var(--size-base);
+
+        padding-top: var(--size-base);
+        padding-bottom: var(--size-base);
+    }
+    .main__title{
+        font-size: var(--size-3xl);
+        
+        border-radius: var(--border-sm);
+    }
+    .color{
+        margin-left: var(--size-xxs);        
+        font-size: var(--size-4xl);
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .main {
+        gap: var(--size-lg);
+    
+        padding-top: var(--size-lg);
+        padding-bottom: var(--size-lg);
+    }
+    
+    .main__title {
+        font-size: var(--size-4xl);
+        border-radius: var(--border-base);
+    }
+
+    .color {
+        margin-left: var(--size-xs);
+        font-size: var(--size-4xl);
+    }
+}
+
+/* md */
+/* @media (min-width: 768px) {
+   
+} */
+
+/* lg */
+@media (min-width: 1024px) {
+    .main {
+        gap: var(--size-2xl);
+
+        padding-top: var(--size-xl);
+        padding-bottom: var(--size-xl);
+    }
+
+    .main__title {
+        font-size: var(--size-5xl);
+        border-radius: var(--border-base);
+    }
+
+    .color {
+        display: inline;
+        margin-left: var(--size-xs);
+        font-size: var(--size-5xl);
+    }
+    .main__btn {
+        font-size: var(--size-4xl);
+        width: 13rem;
+        height: 3.85rem;
+    }
+}
+
+/* xl */
+/* @media (min-width: 1280px) {
+    
+} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {
+    
+} */
