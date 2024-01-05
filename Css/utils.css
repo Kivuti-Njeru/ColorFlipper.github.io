@@ -36,7 +36,7 @@
 }
 
 .container {
-    width: 100%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     padding-left: var(--size-xxs);
@@ -51,18 +51,7 @@
 }
 
 .btn{
-    display: grid;
-    place-content: center;
-    width: 9rem;
-    height: 2.625rem;
-    user-select: none;
-    line-height: 1.7;
-    letter-spacing: -0.015em;
-    text-align: center;
-    font-size: var(--size-xl);
-    border: .03em solid var(--clr-dark);
-    border-radius: var(--border-m);
-    cursor: pointer;
+    
     transition: scale .15s ease;
 }
 

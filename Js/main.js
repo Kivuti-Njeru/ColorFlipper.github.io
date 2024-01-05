@@ -6,7 +6,8 @@ const text = document.querySelector('.text')
 btn.addEventListener('click', function(){
    let randomColor = Getrandom()
 
-document.body.style.backgroundColor = colors[randomColor]
+   btn.style.backgroundColor = colors[randomColor]
+   document.body.style.backgroundColor = colors[randomColor]
    text.textContent = colors[randomColor]
    text.style.color = colors[randomColor]
 })

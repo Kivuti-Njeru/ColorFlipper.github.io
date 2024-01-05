@@ -8,8 +8,7 @@
 .main{
     display: grid;
     place-items: center;
-    gap: var(--size-sm);
-
+    gap: 1rem;
     padding-top: var(--size-sm);
     padding-bottom: var(--size-sm);
 }
@@ -17,16 +16,17 @@
 .main__title{    
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     color: var(--clr-light);
     text-transform: capitalize;
     text-align: center;
+    text-wrap: nowrap;
 
-    font-weight: 700;
+    font-weight: 600;
     font-size: var(--size-2xl);
 
     background-color: rgba(54, 54, 54, 0.875);
-    padding: var(--size-2xl) var(--size-5xl);
+    padding: var(--size-2xl) var(--size-4xl);
     border-radius: var(--border-lg);
 }
 
@@ -36,13 +36,11 @@
     color: #7592f0;
 
     font-weight: 400;
-    font-size: var(--size-3xl);
+    font-size: var(--size-2xl);
 }
 
 .main__button{
-    display: grid;
-    place-items: center;
-    user-select: none;
+    border: .03em solid var(--clr-dark);
 }
 
 

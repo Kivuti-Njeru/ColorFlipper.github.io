@@ -18,7 +18,7 @@
     text-wrap: nowrap;
     color: var(--clr-title);
 
-    font-family: var(--font-playfair);
+    font-family: var(--font-oxygen);
     font-weight: 700;
     font-size: var(--size-lg);
 }
@@ -34,16 +34,27 @@
     list-style-type: none;
 }
 .header__link{
+    padding: .095em .4em;
+    border-radius: var(--border-sm);
     text-decoration: none;
     text-transform: capitalize;
     color: var(--clr-links);
+    border: .0125em solid var(--clr-links);
 
-    font-family: var(--font-playfair);
-    font-weight: bold;
+    font-family: var(--font-oxygen);
+    font-weight: 400;
     font-size: var(--size-base);
+    transition: background-color .3s ease;
+}
+.header__link:hover{
+    background-color: rgba(98, 181, 236, .1);
 }
 .hex{
+    border: .0125em solid var(--clr-hex);
     color: var(--clr-hex);
+}
+.hex:hover{
+    background-color: rgba(78, 211, 189, .1);
 }
 
 /* xs */
