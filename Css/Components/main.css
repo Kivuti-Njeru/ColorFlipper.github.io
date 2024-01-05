@@ -54,13 +54,13 @@
         padding-bottom: var(--size-base);
     }
     .main__title{
-        font-size: var(--size-2xl);
+        font-size: var(--size-3xl);
         
         border-radius: var(--border-sm);
     }
     .color{
         margin-left: var(--size-xxs);        
-        font-size: var(--size-4xl);
+        font-size: var(--size-3xl);
     }
 }
 
